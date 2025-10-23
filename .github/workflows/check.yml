@@ -7,4 +7,4 @@ check-file:
     - name: Say Hello
       run: echo "Hello form Github Actions! The workflows has run"
     - name: List Files
-      run:ls -la
+      run: ls -la
