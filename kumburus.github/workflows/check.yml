@@ -1,0 +1,11 @@
+name: Simple Push Check
+on: [push]
+jobs:
+  check-file:
+    runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v4
+        - name: Say Jusmerpogi
+          run: echo "Hello from Github Actions! The workflow has run."
+        - name: List Files
+         run: ls -la
